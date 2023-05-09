@@ -1,7 +1,7 @@
 <x-layout-base>
   <x-slot:title>
       Login
-  </x-slot>
+  </x-slot:title>
   <main id="login">
     <div class="container">
       <h1 class="titulo"><span>LOGIN</span></h1>
@@ -14,14 +14,14 @@
       <div class="radio_bton text_label justify-content-center">
           <span>Entrar como:</span>
           <div >
-          <input class="text_label" type="radio" name="tipo" id="tipoCliente" value="1"> 
+          <input class="text_label" type="radio" name="tipo" id="tipoCliente" value="1">
           <label class="text_check" for="tipoCliente">Cliente</label>
-           
+
           </div>
           <div>
-          <input class="text_label" type="radio" name="tipo" id="tipoVendedor" value="2"> 
+          <input class="text_label" type="radio" name="tipo" id="tipoVendedor" value="2">
           <label class="text_check" for="tipoVendedor">Vendedor</label>
-           
+
           </div>
         </div>
 
